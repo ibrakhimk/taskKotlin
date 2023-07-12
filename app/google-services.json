@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "421026853539",
+    "project_id": "taskkotlin-e3cec",
+    "storage_bucket": "taskkotlin-e3cec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421026853539:android:c036402c47789a88b64516",
+        "android_client_info": {
+          "package_name": "com.example.taskkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421026853539-70sac5q4satmvm8kgm9lrc2frghpvrah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA4zxABaIzHbSTFTP2e0hZKlOgG3kOZ7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421026853539-70sac5q4satmvm8kgm9lrc2frghpvrah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
