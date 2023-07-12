@@ -17,6 +17,8 @@ class HomeAdapter(val onLongClick:(Home)->Unit,val onClick:(Home)->Unit) :
         notifyDataSetChanged()
     }
 
+
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeViewHolder {
         return HomeViewHolder(
             ItemHomeBinding.inflate(
@@ -37,8 +39,8 @@ class HomeAdapter(val onLongClick:(Home)->Unit,val onClick:(Home)->Unit) :
 
     inner class HomeViewHolder(private val binding: ItemHomeBinding) : ViewHolder(binding.root) {
         fun bind(home: Home) {
-            binding.tvTitle.text = home.title
             binding.tvDesc.text = home.desc
+            binding.tvTitle.text = home.title
             itemView.setOnLongClickListener {
                 onLongClick(home)
                 false
